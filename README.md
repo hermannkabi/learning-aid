@@ -1,8 +1,16 @@
-# LearningAid
-This is the GitHub Repository of the word-learning app LearningAid (Code Stew).
-<h3>What is it?</h3>
-<p>This app makes learning words for languages you learn so much easier. You can make a quiz, or get one from the internet. It's ideal for teachers who want to make studying easy and fun</p>
-<h3>Where to download</h3>
-<p>You can download the app from the Google Play Store when it releases (early 2021). For the time being, you can download it <a href="https://github.com/hermannkabi/learning-aid">here</a>.</p>
-<h3>Wiki</h3>
-Check out the LearningAid Wiki <a href="https://github.com/hermannkabi/learning-aid/wiki">here</a>
+# learning_aid
+
+An app to help learn words
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

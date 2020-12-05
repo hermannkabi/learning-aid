@@ -47,7 +47,7 @@ class Helper{
   static Future<void>addToPubGames({String title, String id, List<String> words, List<String> meanings, String subject, int percentage, bool showBottomSheet})async{
 
     final String gist = "8f72de4baa1a40ab2a633cd13d57b9b0";
-    final String token = "6d3d1cb506b2abba84bef7a955ab35cd3807faa1";
+    final String token = "***";
 
       Response answer = await get("https://api.github.com/gists/$gist", headers: {"user":token});
       Map data = jsonDecode(answer.body);
@@ -79,7 +79,7 @@ class Helper{
 
   static Future<Map>getPublicGames()async{
     final String gist = "8f72de4baa1a40ab2a633cd13d57b9b0";
-    final String token = "6d3d1cb506b2abba84bef7a955ab35cd3807faa1";
+    final String token = "***";
 
     Response answer = await get("https://api.github.com/gists/$gist", headers: {"user":token});
     Map data = jsonDecode(answer.body);
